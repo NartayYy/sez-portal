@@ -1,0 +1,16 @@
+# Render Blueprint: Static Site (Vite + React)
+# https://dashboard.render.com → New → Blueprint
+services:
+  - type: web
+    name: sez-portal-vizitka
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN

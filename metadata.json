@@ -1,0 +1,8 @@
+{
+  "name": "Сайт-визитка",
+  "description": "Базовый шаблон многостраничного сайта",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
