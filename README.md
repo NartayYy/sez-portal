@@ -1,4 +1,4 @@
-# Цифровая система управления СЭЗ / ИЗ
+# Информационная система цифрового управления
 
 Веб-визитка / прототип портала специальных экономических и индустриальных зон Казахстана.
 
@@ -28,8 +28,8 @@ npm run preview  # локальный просмотр dist/
    **или** **New → Static Site** и укажите:
    - **Build Command:** `npm ci && npm run build`
    - **Publish Directory:** `dist`
-4. После деплоя сайт будет доступен по адресу вида  
-   `https://sez-portal-vizitka.onrender.com`.
+4. После деплоя сайт доступен:  
+   [https://sez-portal.onrender.com/](https://sez-portal.onrender.com/).
 
 ### Важно
 
