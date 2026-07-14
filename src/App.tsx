@@ -363,15 +363,15 @@ export default function App() {
           {!isSidebarCollapsed ? (
             <div className="px-3 py-2.5 mb-1.5 border-b border-white/10 select-none">
               <h2 className="text-[12px] font-black tracking-tight text-white uppercase leading-tight">
-                Цифровая система
+                Информационная система
               </h2>
               <p className="text-[10px] font-bold text-blue-200/80 mt-0.5 uppercase tracking-wide leading-tight">
-                управления информацией
+                цифрового управления
               </p>
             </div>
           ) : (
-            <div className="flex justify-center py-2.5 mb-1.5 border-b border-white/10 select-none" title="Цифровая система управления информацией">
-              <span className="text-[10px] font-black text-white bg-blue-950/40 px-1.5 py-0.5 rounded border border-blue-800/30">ЦСУИ</span>
+            <div className="flex justify-center py-2.5 mb-1.5 border-b border-white/10 select-none" title="Информационная система цифрового управления">
+              <span className="text-[10px] font-black text-white bg-blue-950/40 px-1.5 py-0.5 rounded border border-blue-800/30">ИСЦУ</span>
             </div>
           )}
 
